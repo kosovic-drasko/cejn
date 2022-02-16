@@ -43,8 +43,8 @@
     "devServerPort": 4200,
     "clientPackageManager": "npm",
     "languages": ["sr", "en"],
-    "herokuAppName": "cejn-mont",
-    "herokuDeployType": "git",
+    "herokuAppName": "tenderi",
+    "herokuDeployType": "jar",
     "herokuJavaVersion": "11"
   }
 }
