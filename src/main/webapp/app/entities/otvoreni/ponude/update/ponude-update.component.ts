@@ -9,7 +9,7 @@ import { IPonude, Ponude } from '../ponude.model';
 import { PonudeService } from '../service/ponude.service';
 import { PonudjaciService } from 'app/entities/ponudjaci/service/ponudjaci.service';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
-import { IPonudjaci } from '../../ponudjaci/ponudjaci.model';
+import { IPonudjaci } from '../../../ponudjaci/ponudjaci.model';
 
 @Component({
   selector: 'jhi-ponude-update',
