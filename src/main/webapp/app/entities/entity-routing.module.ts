@@ -32,7 +32,7 @@ import { RouterModule } from '@angular/router';
       {
         path: 'ponude',
         data: { pageTitle: 'tenderiApp.ponude.home.title' },
-        loadChildren: () => import('./ponude/ponude.module').then(m => m.PonudeModule),
+        loadChildren: () => import('./otvoreni/ponude/ponude.module').then(m => m.PonudeModule),
       },
       {
         path: 'view-ponude',

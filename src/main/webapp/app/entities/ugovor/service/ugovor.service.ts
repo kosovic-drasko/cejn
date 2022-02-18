@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { isPresent } from 'app/core/util/operators';
 import { ApplicationConfigService } from 'app/core/config/application-config.service';
 import { IUgovor, getUgovorIdentifier } from '../ugovor.model';
-import { getPonudeIdentifier, IPonude } from 'app/entities/ponude/ponude.model';
+import { getPonudeIdentifier, IPonude } from 'app/entities/otvoreni/ponude/ponude.model';
 export type EntityResponseType = HttpResponse<IUgovor>;
 export type EntityArrayResponseType = HttpResponse<IUgovor[]>;
 

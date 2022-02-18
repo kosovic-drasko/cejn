@@ -11,7 +11,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableExporterModule } from 'mat-table-exporter';
 import { DeleteSelectedComponent } from './delete-selected/delete-selected.component';
-import { JhMaterialModule } from '../../shared/jh-material.module';
+import { JhMaterialModule } from '../../../shared/jh-material.module';
 
 @NgModule({
   imports: [SharedModule, PonudeRoutingModule, MatPaginatorModule, MatTableModule, MatSortModule, MatTableExporterModule, JhMaterialModule],

@@ -9,12 +9,12 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Account } from 'app/core/auth/account.model';
 import { Subscription } from 'rxjs';
 import { AccountService } from 'app/core/auth/account.service';
-import { PonudeDeleteDialogComponent } from 'app/entities/ponude/delete/ponude-delete-dialog.component';
-import { IPonudePonudjaci } from 'app/entities/ponude/ponude_ponudjaci.model';
+import { PonudeDeleteDialogComponent } from 'app/entities/otvoreni/ponude/delete/ponude-delete-dialog.component';
+import { IPonudePonudjaci } from 'app/entities/otvoreni/ponude/ponude_ponudjaci.model';
 import { SERVER_API_URL } from 'app/app.constants';
 import { MatDialog } from '@angular/material/dialog';
 
-import { PonudeUpdateComponent } from 'app/entities/ponude/update/ponude-update.component';
+import { PonudeUpdateComponent } from 'app/entities/otvoreni/ponude/update/ponude-update.component';
 import { HttpResponse } from '@angular/common/http';
 
 @Component({

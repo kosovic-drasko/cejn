@@ -4,15 +4,15 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { IViewPonude } from '../view-ponude.model';
 import { ViewPonudeService } from '../service/view-ponude.service';
 import { MatTableDataSource } from '@angular/material/table';
-import { IPonude } from '../../ponude/ponude.model';
+import { IPonude } from '../../otvoreni/ponude/ponude.model';
 import { MatSort } from '@angular/material/sort';
 import { MatPaginator } from '@angular/material/paginator';
-import { PonudeUpdateComponent } from '../../ponude/update/ponude-update.component';
+import { PonudeUpdateComponent } from '../../otvoreni/ponude/update/ponude-update.component';
 import { MatDialog } from '@angular/material/dialog';
-import { PonudeService } from '../../ponude/service/ponude.service';
+import { PonudeService } from '../../otvoreni/ponude/service/ponude.service';
 import * as dayjs from 'dayjs';
-import { PonudeDeleteDialogComponent } from '../../ponude/delete/ponude-delete-dialog.component';
-import { IPonudePonudjaci } from '../../ponude/ponude_ponudjaci.model';
+import { PonudeDeleteDialogComponent } from '../../otvoreni/ponude/delete/ponude-delete-dialog.component';
+import { IPonudePonudjaci } from '../../otvoreni/ponude/ponude_ponudjaci.model';
 import { SERVER_API_URL } from '../../../app.constants';
 
 @Component({
